@@ -1,0 +1,20 @@
+#card{
+    width: 200px;
+    height: 280px;
+    margin: auto;
+    padding: 5px;
+}
+.progress{
+    width: 200px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#buttons{
+    width: 200px;
+    margin: auto;
+}
+#image{
+    width: 190px;
+    height: 270px;
+}
