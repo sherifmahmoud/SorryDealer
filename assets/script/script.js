@@ -52,22 +52,26 @@ let sorry = {
 
 $(function () {
     sorry.init();
-
 });
 
 $('#shuffle').click(function () {
     sorry.shuffleCards();
+    updateCardImage();
+    //update progress bar
     updateProgressBar();
-
 });
 $('#drawCard').click(function () {
     let cardIndex = sorry.drawCard();
     //change card image
-    $('#image').attr('src', `./assets/images/${sorry.cards[cardIndex].image}`);
+    updateCardImage();
     //update progress bar
     updateProgressBar();
 });
 
+function updateCardImage() {
+    let cardIndex = sorry.shuffled[sorry.currentCard];
+    $('#image').attr('src', `./assets/images/${sorry.cards[cardIndex].image}`);
+}
 function updateProgressBar() {
     let percent = ((sorry.currentCard + 1) / sorry.shuffled.length) * 100;
     $('#progress').attr('style', `width: ${percent}%`);
