@@ -1,16 +1,16 @@
 let sorry = {
     cards: [
-        { value: '1', image: 'Card_1.jpg', number: 5 },
-        { value: '2', image: 'Card_2.jpg', number: 4 },
-        { value: '3', image: 'Card_3.jpg', number: 4 },
-        { value: '4', image: 'Card_4.jpg', number: 4 },
-        { value: '5', image: 'Card_5.jpg', number: 4 },
-        { value: '7', image: 'Card_7.jpg', number: 4 },
-        { value: '8', image: 'Card_8.jpg', number: 4 },
-        { value: '10', image: 'Card_10.jpg', number: 4 },
-        { value: '11', image: 'Card_11.jpg', number: 4 },
-        { value: '12', image: 'Card_12.jpg', number: 4 },
-        { value: 'Sorry', image: 'Card_Sorry.jpg', number: 4 }
+        { value: '1', image: 'Card_1.JPG', number: 5 },
+        { value: '2', image: 'Card_2.JPG', number: 4 },
+        { value: '3', image: 'Card_3.JPG', number: 4 },
+        { value: '4', image: 'Card_4.JPG', number: 4 },
+        { value: '5', image: 'Card_5.JPG', number: 4 },
+        { value: '7', image: 'Card_7.JPG', number: 4 },
+        { value: '8', image: 'Card_8.JPG', number: 4 },
+        { value: '10', image: 'Card_10.JPG', number: 4 },
+        { value: '11', image: 'Card_11.JPG', number: 4 },
+        { value: '12', image: 'Card_12.JPG', number: 4 },
+        { value: 'Sorry', image: 'Card_Sorry.JPG', number: 4 }
     ],
 
     shuffled: [],
