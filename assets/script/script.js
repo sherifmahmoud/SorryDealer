@@ -63,7 +63,7 @@ $('#shuffle').click(function () {
 $('#drawCard').click(function () {
     let cardIndex = sorry.drawCard();
     //change card image
-    $('#image').attr('src', `assets/images/${sorry.cards[cardIndex].image}`);
+    $('#image').attr('src', `./assets/images/${sorry.cards[cardIndex].image}`);
     //update progress bar
     updateProgressBar();
 });
